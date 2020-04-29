@@ -31,7 +31,7 @@ class XgcDevel(CMakePackage):
     def cmake_args(self):
         spec = self.spec
         args = []
-        args += ['-DCMAKE_CXX_COMPILER=%s' % self.spec['kokkos'].kokkos_cxx]
+        args += ['-DCMAKE_CXX_COMPILER=%s' % spec['kokkos'].kokkos_cxx]
         args += ['-DBUILD_TESTING=OFF']
         args += ['-DXGC_USE_ADIOS1=ON']
         args += ['-DXGC_USE_ADIOS2=ON']
