@@ -39,7 +39,7 @@ packages:
     paths:
       adios2@2.6.0a%pgi@19.9: /gpfs/alpine/csc143/world-shared/jyc/summit/sw/adios2/v2.6.0-271-gc5c1699/pgi19.9
       #adios2@2.6.0-271%pgi@19.9+blosc+bzip2+dataman~dataspaces~endian_reverse+fortran~hdf5+mpi+pic+png~python+shared+ssc+sst+sz+zfp: /gpfs/alpine/csc143/world-shared/jyc/summit/sw/adios2/v2.6.0-271-gc5c1699/pgi19.9
-    buildable: False
+    #buildable: False
 
   dataspaces:
     version: [develop]
@@ -58,7 +58,8 @@ packages:
   netlib-scalapack:
     paths:
       netlib-scalapack@2.0.2%gcc@8.1.1: /sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/gcc-8.1.1/netlib-scalapack-2.0.2-7x3lv7z2lzfbe5kfwlt2aajkx4hvmgdm
-      netlib-lapack@3.8.0%pgi@19.9:  /sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.9/netlib-lapack-3.8.0-osgnhlqnprebssng2vsxn3dtgmwfutbb
+      netlib-scalapack@2.0.2%pgi@19.9: /sw/summit/.swci/1-compute/opt/spack/20180914/linux-rhel7-ppc64le/pgi-19.9/netlib-scalapack-2.0.2-3dil4et33blmmcc5ds6a3g7vkzcwiwgj
+    buildable: False
 
   hdf5:
     paths:
