@@ -37,8 +37,7 @@ packages:
 
   adios2:
     paths:
-      adios2@2.6.0a%pgi@19.9: /gpfs/alpine/csc143/world-shared/jyc/summit/sw/adios2/v2.6.0-271-gc5c1699/pgi19.9
-      #adios2@2.6.0-271%pgi@19.9+blosc+bzip2+dataman~dataspaces~endian_reverse+fortran~hdf5+mpi+pic+png~python+shared+ssc+sst+sz+zfp: /gpfs/alpine/csc143/world-shared/jyc/summit/sw/adios2/v2.6.0-271-gc5c1699/pgi19.9
+      adios2@2.6.271%pgi@19.9: /gpfs/alpine/csc143/world-shared/jyc/summit/sw/adios2/v2.6.0-271-gc5c1699/pgi19.9
     #buildable: False
 
   dataspaces:

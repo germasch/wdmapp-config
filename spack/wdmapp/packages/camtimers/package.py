@@ -19,6 +19,9 @@ class Camtimers(CMakePackage):
 
     version('0.1.0', tag='v0.1.0', preferred=True)
     version('master', branch='master')
+    version("dev", branch="dev", git="git@github.com:germasch/camtimers.git")
 
     depends_on('mpi')
 
+    def cmake_args(self):
+        return "-DCAMTIMERS_USE_NVTX=ON"
